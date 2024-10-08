@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bento-grid {
+  @apply gap-4;
+}
+
+.bento-item {
+  @apply rounded-lg overflow-hidden shadow-md transition-transform duration-300 hover:scale-105;
+}
+
+.bento-item-empty {
+  @apply bg-gray-100;
+}
